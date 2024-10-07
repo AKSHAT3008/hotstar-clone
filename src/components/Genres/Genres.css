@@ -1,0 +1,32 @@
+.text-color-white {
+  color: white;
+}
+.inner-container {
+  padding: 50px;
+  opacity: 0.8;
+}
+
+.image-box {
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+
+.image-box:hover {
+  display: block;
+  transform: scale(1.2);
+  transition: 0.3s;
+  z-index: 99999;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+}
+.upper-case {
+  text-transform: uppercase;
+}
